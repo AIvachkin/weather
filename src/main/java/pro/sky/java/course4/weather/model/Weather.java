@@ -23,4 +23,12 @@ public class Weather {
     public void setWind(WeatherWind wind) {
         this.wind = wind;
     }
+
+    @Override
+    public String toString() {
+        return "Weather{" +
+                "main=" + main +
+                ", wind=" + wind +
+                '}';
+    }
 }

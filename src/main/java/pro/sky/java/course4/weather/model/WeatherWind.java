@@ -25,4 +25,12 @@ public class WeatherWind {
     public void setDeg(Integer deg) {
         this.deg = deg;
     }
+
+    @Override
+    public String toString() {
+        return "WeatherWind{" +
+                "speed=" + speed +
+                ", deg=" + deg +
+                '}';
+    }
 }
